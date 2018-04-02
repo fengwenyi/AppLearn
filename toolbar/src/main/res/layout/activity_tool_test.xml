@@ -10,10 +10,13 @@
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="@color/colorPrimary"
-        app:navigationIcon="@drawable/back"
+
         app:subtitle="子标题"
         app:title="标题"
         app:subtitleTextColor="#dddddd"
         app:titleTextColor="#ffffff"/>
+    <!--
+     自定义返回箭头
+     -->
 
 </LinearLayout>
