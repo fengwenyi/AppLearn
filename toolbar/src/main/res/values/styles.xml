@@ -14,12 +14,17 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
         <!-- 溢出菜单图标颜色-->
-        <item name="colorControlNormal">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/background_dark</item>
         <!-- 溢出菜单图标自定义-->
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
     </style>
 
     <style name="OverflowButtonStyle" parent="android:Widget.ActionButton.Overflow">
-        <item name="android:src">@mipmap/add</item>
+        <item name="android:src">@drawable/add</item>
+    </style>
+
+    <!-- toolbar弹出菜单样式背景 -->
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat">
+        <item name="android:colorBackground">#FFCC99</item>
     </style>
 </resources>

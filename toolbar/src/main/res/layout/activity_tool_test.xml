@@ -14,7 +14,10 @@
         app:subtitle="子标题"
         app:title="标题"
         app:subtitleTextColor="#dddddd"
-        app:titleTextColor="#ffffff"/>
+        app:titleTextColor="#ffffff"
+
+        app:popupTheme="@style/ToolbarPopupTheme"
+        />
     <!--
      自定义返回箭头
      -->

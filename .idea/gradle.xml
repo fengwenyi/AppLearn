@@ -9,6 +9,8 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/qrcode" />
+            <option value="$PROJECT_DIR$/scancode" />
             <option value="$PROJECT_DIR$/toolbar" />
           </set>
         </option>
